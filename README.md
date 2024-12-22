@@ -63,16 +63,16 @@ Step 2: Create a Dockerfile
 Created a file named Dockerfile in the same directory as your hello.py file with the following content:
 
 Dockerfile
-# Use an official Python runtime as a parent image
+Use an official Python runtime as a parent image
 FROM python:3.8-slim
 
-# Set the working directory in the container
+Set the working directory in the container
 WORKDIR /app
 
-# Copy the current directory contents into the container at /app
+Copy the current directory contents into the container at /app
 COPY . /app
 
-# Run hello.py when the container launches
+Run hello.py when the container launches
 CMD ["python", "hello.py"]
 
 Step 3: Test the Dockerfile by Building the Image
