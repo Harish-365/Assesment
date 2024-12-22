@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CloudEngine Labs DevOps & Cloud Engineer Assignment
 
 ## Time limit
@@ -49,3 +50,6 @@
 Note:
 
 - Anytime if you have questions, please drop a note to [work@cloudenginelabs.io](mailto:work@cloudenginelabs.io)
+=======
+# Assesment
+>>>>>>> 18f9901614d5e38b8e4e11bc28a36c422353c971
